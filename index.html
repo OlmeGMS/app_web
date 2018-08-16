@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="app de taxis">
+    <meta name="author" content="Taxis Ya">
+
+    <title>Taxis Ya - Vuelve a confiar</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/video.js/video-js.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="page-top" data-scroll-animation="true">
+<div id="spinner">
+  <div class="sk-folding-cube">
+    <div class="sk-cube1 sk-cube"></div>
+    <div class="sk-cube2 sk-cube"></div>
+    <div class="sk-cube4 sk-cube"></div>
+    <div class="sk-cube3 sk-cube"></div>
+  </div>
+</div><nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Navegación</span> <img src="img/menu-light.svg" alt=""></i>
+      </button>
+      <a class="navbar-brand page-scroll navbar-brand-custom" href="#page-top">
+          <style>
+            .logoapp{
+              width: 150px;
+              margin-top: -21px;
+              border-radius: 15px;
+            }
+            @media (max-width: 1000px) {
+              .logoapp{
+                width: 150px;
+                margin-top: -21px;
+                margin-left: -50px;
+              }
+            }
+            @media (max-width: 700px) {
+              .logoapp{
+                width: 142px;
+                margin-top: -21px;
+                margin-left: -50px;
+              }
+            }
+          </style>
+          <img class="logoapp" id="logoapp" src="img/logos/logo_taxi_app.png" alt="taxisya_app" style="border-radius: 15px;">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="page-scroll" href="#banner_home">La App</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#store">Tiendas</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#funcionalidad">Funcionalidades</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#screenshots">¿Cómo pedir un taxi?</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#faqs">Preguntas frecuentes</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contacto_from">Contactanos</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<header class="mobile-on-right-small" id="banner_home">
+  <div class="container">
+    <div class="row same-height-row">
+      <div class="col-sm-7">
+        <div class="header-content">
+          <div class="header-content-inner">
+            <h1 class="wow fadeInUpp">¡Que vuelvas a confiar es nuestro objetivo!</h1>
+            <a href="#download" class="btn btn-primary btn-xl page-scroll wow fadeInUp" data-wow-delay="0.3">Descarga la App</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5 wow fadeInRight" data-wow-delay="0.6">
+        <div class="image-container">
+          <img src="img/telefonos.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="mobile-download" id="store">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <div class="row">
+          <div class="mobile-col-border col-sm-12 col-md-6 wow fadeInUp" data-wow-delay="0.3">
+            <div class="row text-center">
+              <i class="fa fa-apple mobile-icon" aria-hidden="true"></i>
+            </div>
+            <div class="row text-center text-download">
+              <div class="col-sm-8 col-sm-offset-2">
+                <span>
+                  Descarga nuestra aplicación,
+                  ingresa a Play Store!
+                </span>
+              </div>
+            </div>
+            <div class="row text-center">
+              <button class="btn btn-primary" onclick="window.location.href='https://apple.co/2sJh3vr'">Descargar</button>
+            </div>
+          </div>
+          <div class="mobile-col-border col-sm-12 col-md-6 wow fadeInUp">
+            <div class="row text-center">
+              <i class="fa fa-android mobile-icon" aria-hidden="true"></i>
+            </div>
+            <div class="row text-center text-download">
+              <div class="col-sm-8 col-sm-offset-2">
+                <span>
+                  Descarga nuestra aplicación,
+                  ingresa a Google Play!
+                </span>
+              </div>
+            </div>
+            <div class="row text-center">
+              <button class="btn btn-primary" onclick="window.location.href='http://bit.ly/2kWqbIN'">Descargar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="functionality bg-gray" id="funcionalidad">
+  <div class="container">
+    <div class="row section-heading wow fadeInUp">
+      <h2>Funcionalidad</h2>
+      <p>¿Qué esperas para hacerte un taxisyafantico?</p>
+    </div>
+
+    <div class="row ">
+      <div class="col-sm-12 col-md-4 col-md-push-4 text-center wow fadeIn" data-wow-delay="0.3">
+        <div class="device-mockup iphone6 portrait black">
+          <div class="device">
+            <div class="screen">
+              <img src="img/app_home.png" class="img-responsive" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-md-pull-4 left-content">
+        <div class="media wow fadeInUp">
+          <div class="media-left">
+            <span><i class="fa fa-calculator"></i></span>
+          </div>
+          <div class="media-body">
+            <h4>Cálculo de la tarifa</h4>
+            <p>Nuestra aplicación te brinda desde el primer momento el costo del servicio, la distancia y el tiempo del servicio.</p>
+          </div>
+        </div>
+        <div class="media wow fadeInUp" data-wow-delay="0.3">
+          <div class="media-left">
+            <span><i class="fa fa-cloud"></i></span>
+          </div>
+          <div class="media-body">
+            <h4>Buscar tu destino</h4>
+            <p>Nuestro algoritmo de ubicación te permite encontrar tu destino por lugar o la dirección de la nomenclatura de tu ciudad.</p>
+          </div>
+        </div>
+        <div class="media wow fadeInUp" data-wow-delay="0.6">
+          <div class="media-left">
+            <span><i class="fa fa-credit-card"></i></span>
+          </div>
+          <div class="media-body">
+            <h4>Medios de pago</h4>
+            <p>Pensando en tí nuestra app te permite pagar en efectivo o vales.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 right-content">
+        <div class="media wow fadeInUp">
+          <div class="media-left">
+            <span><i class="fa fa-lastfm"></i></span>
+          </div>
+          <div class="media-body">
+            <h4>Trazado óptimo</h4>
+            <p>Porque sabes que quieres llegar rápido y seguro, trabajamos con los mejores georeferenciadores del mercado para darte la mejor ruta según el tráfico de tú ciudad.</p>
+          </div>
+        </div>
+        <div class="media wow fadeInUp" data-wow-delay="0.3">
+          <div class="media-left">
+            <span><i class="fa fa-calendar"></i></span>
+          </div>
+          <div class="media-body">
+            <h4>Historial</h4>
+            <p>Consulta tus viajesrealizados en cualquier momento. </p>
+          </div>
+        </div>
+        <div class="media wow fadeInUp" data-wow-delay="0.6">
+          <div class="media-left">
+            <span><i class="fa fa-comments"></i></span>
+          </div>
+          <div class="media-body">
+            <h4>Chat</h4>
+            <p>Comunicate con nuestros conductores o nuesto call center 7x24. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="video-1 no-padding">
+  <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px"
+         controls preload="none" poster='img/video_app.png'
+         data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+    <source src="video/taxisya.mp4" type='video/mp4' />
+    <div class="vjx-poster"></div>
+  </video>
+</section>
+<section class="screenshots-1 bordered" id="screenshots">
+  <div class="container">
+    <h2 class="section-heading dark wow fadeIn">¿Cómo pedir un taxi?</h2>
+    <p class="section-body light-gray text-faded wow fadeIn" data-wow-delay="0.3">En solo dos pasos puedes solicitar tu Taxis Ya.</p>
+
+    <div class="row screenshots-container popup-gallery">
+      <div class="col-lg-3 col-md-3 col-sm-12 screenshot wow fadeInUp">
+        <a href="img/pasos/pedir_direccion.jpg" class="screen-container">
+          <img src="img/pasos/pedir_direccion.jpg" alt="">
+        </a>
+        <p class="screen-description">
+          Digita el lugar o la dirección donde quieres llegar
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 screenshot wow fadeInUp">
+        <a href="img/pasos/tarifa.jpg" class="screen-container">
+          <img src="img/pasos/tarifa.jpg" alt="">
+        </a>
+        <p class="screen-description">
+          Verifica el tiempo, la distancia y el medio de pago.
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 screenshot wow fadeInUp">
+        <a href="img/pasos/confirmar_tarifa.jpg" class="screen-container">
+          <img src="img/pasos/confirmar_tarifa.jpg" alt="">
+        </a>
+        <p class="screen-description">
+          Confirma la tarifa y los recargos.
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 screenshot wow fadeInUp">
+        <a href="img/pasos/espera_taxi.jpg" class="screen-container">
+          <img src="img/pasos/espera_taxi.jpg" alt="">
+        </a>
+        <p class="screen-description">
+          Espera que te confirmemos tú taxi.
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+<section class="split-product bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1 text-center product-image wow zoomIn">
+        <img src="img/pasos/vale_vale.jpg" alt="" class="img-responsive" style=" border-radius: 15px;">
+      </div>
+      <div class="col-md-6 product-features">
+        <div class="row section-header v3 wow fadeIn">
+          <h2>Servicios con vales</h2>
+          <p>Taxisya app te ofrece un administrador para generar, autorizar y controlar tus servicios de vales, todo esto con el fin de ofrecerle la mejor experiencia de transporte y seguridad al talento humano de tú compañía.</p>
+        </div>
+        <ul class="nav">
+          <li class="wow fadeIn" data-wow-delay="0.4s"><i class="fa fa-check"></i> Total control del presupuesto.</li>
+          <li class="wow fadeIn" data-wow-delay="0.6s"><i class="fa fa-check"></i> Seguimiento en tiempo real de los servicios.</li>
+          <li class="wow fadeIn" data-wow-delay="0.8s"><i class="fa fa-check"></i> Roles y permisos según el organigrama de tú compañía.</li>
+          <li class="wow fadeIn" data-wow-delay="0.9s"><i class="fa fa-check"></i> Administra todos tus servicios desde nuestra app, web o</li>
+          <li class="wow fadeIn" data-wow-delay="0.9s" style="margin-top: -2px;float: left;margin-left: 20px;"> call center las 24 horas del día.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="team">
+  <div class="container">
+    <div class="row section-heading wow fadeInUp">
+      <h2>Nuestro Equipo</h2>
+      <p>Tabajamos para que vuelvas a creer.</p>
+    </div>
+
+    <div class="row team__members">
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp">
+        <div class="row content">
+          <div class="row m0 image">
+            <img src="img/people/don_jose.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>José González</h4>
+            <h5 class="text-muted">CEO</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.3s">
+        <div class="row content">
+          <div class="row m0 image">
+            <img src="img/people/mao.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Mauricio Cruz</h4>
+            <h5 class="text-muted">Gerente</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.6s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/people/jess.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Jesica Casas</h4>
+            <h5 class="text-muted">Coordinadora Tecnología</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.9s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/people/olme.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Olme Marin</h4>
+            <h5 class="text-muted">Desarrollador</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.9s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/people/javi.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Javier Vazquez</h4>
+            <h5 class="text-muted">Desarrollador</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.9s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/people/helen.jpg" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Helen Lara</h4>
+            <h5 class="text-muted">Soporte</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="faqs" id="faqs">
+  <div class="container">
+    <div class="row section-heading">
+      <h2>Preguntas frecuentes</h2>
+      <p>Té respondemos las dudas más comunes sobre nuestra app.</p>
+    </div>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-sm-6 faq wow fadeInUp">
+        <h4>¿Por qué confiar en nuestras tarifas?</h4>
+        <p>Nustra tarifa se calcula bajo un algoritmo que tiene encuenta distancia, tiempo y el factor de congestion de tú ciudad. Este cálculo se encuentra homologado por la Secretaria Distrial de Movilidad de Bogotá y el Ministerio de Transporte de Colombia.</p>
+      </div>
+      <div class="col-sm-6 faq wow fadeInUp">
+        <h4>¿Qué pasa si necesito bajarme a mitad de camino?</h4>
+        <p>La aplicación tiene la opción de interrumpir el servicio. Solo en caso de falla mecánica, sí el usuario pida terminar el servicio antes de llegar al destino o de que quiera cambiar su destino final. En cualquiera de los escenarios el sistema hará el recálculo de la tarifa.</p>
+      </div>
+      <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.3s">
+        <h4>¿Qué pasa si cambio de destino?</h4>
+        <p>Se debe interrumpir el servicio y seleccionar la opción de cambio de destino en la aplicación. La plataforma calculará nuevamente el valor hasta el nuevo destino.</p>
+      </div>
+      <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.3s">
+        <h4>¿Qué pasa si necesito hacer varias paradas?</h4>
+        <p>Se debe interrumpir el servicio y seleccionar la opción de cambio de destino en la aplicación. La plataforma calculará nuevamente el valor hasta el nuevo destino.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="blog-row no-padding">
+  <div class="container">
+    <div class="row cards-row">
+      <div class="col-lg-6 col-md-6 col-sm-12 img-row">
+        <a href="#empresas_taxis"><img class="blog-image" src="img/news/video_taxisya.jpg" alt="taxi inteligente"></a>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 dark-bg-row">
+        <div class="card-container">
+          <div class="article-meta">
+            <span class="label label-primary">Destacado</span>
+            <a href="#empresas_taxis">
+              <h5>Ocho empresas de taxis de Bogotá se unen a Taxisya y al taxi inteligente <img src="img/icons/right.svg" alt=""></h5>
+            </a>
+            <div class="meta">
+              <span>
+                <img src="img/icons/tag.svg" alt="" class="meta-icon"> Taxis, Bogotá
+              </span>
+              <span>
+                <img src="img/icons/clock.svg" alt="" class="meta-icon"> 15 de agosto de 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row cards-row">
+      <div class="col-lg-6 col-md-push-6 col-md-6 col-sm-12 img-row">
+        <a href="http://taxi-inteligente.com"><img class="blog-image" src="img/news/taxi_inteligente.jpg" alt="taxisya app"></a>
+      </div>
+      <div class="col-lg-6 col-md-pull-6 col-md-6 col-sm-12 dark-bg-row">
+        <div class="card-container">
+          <div class="article-meta">
+            <a href="http://taxi-inteligente.com">
+              <h5>Taxi inteligente Bogotá<img src="img/icons/right.svg" alt=""></h5>
+            </a>
+            <div class="meta">
+              <span>
+                <img src="img/icons/tag.svg" alt="" class="meta-icon"> Taxis, Bogotá
+              </span>
+              <span>
+                <img src="img/icons/clock.svg" alt="" class="meta-icon"> 14 de agosto de 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="team bg-gray" id="empresas_taxis">
+  <div class="container">
+    <div class="row section-heading wow fadeInUp">
+      <h2>Empresas Afiliadas</h2>
+      <p>Nos unimos para prestarte un mejor servicio.</p>
+    </div>
+
+    <div class="row team__members">
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp">
+        <div class="row content">
+          <div class="row m0 image">
+            <img src="img/empresas/taxisya.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Taxis Ya</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.3s">
+        <div class="row content">
+          <div class="row m0 image">
+            <img src="img/empresas/real.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Real Transportadora</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.6s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/empresas/radiotaxiautolagos.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Radio taxi autolagos</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.9s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/empresas/taxisalamano_logo.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Taxis a la mano</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row team__members">
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp">
+        <div class="row content">
+          <div class="row m0 image">
+            <img src="img/empresas/stu_logo.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Stu</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.3s">
+        <div class="row content">
+          <div class="row m0 image">
+            <img src="img/empresas/m&m_logo.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>M&M Taxis</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.6s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/empresas/estrella_logo.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Taxi Estrella</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team__member wow fadeInUp" data-wow-delay="0.9s">
+        <div class="row content">
+          <div class="row image">
+            <img src="img/empresas/sutaxi_logo.png" alt="">
+          </div>
+          <div class="texts row m0">
+            <h4>Sutaxi</h4>
+            <h5 class="text-muted">Bogotá</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="video-1 no-padding">
+  <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px"
+         controls preload="none" poster='img/video_dos.jpg'
+         data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+    <source src="video/VideoTaxisyaV2.mp4" type='video/mp4' />
+    <div class="vjx-poster"></div>
+  </video>
+</section>
+<section class="contact-with-map no-padding" id="contacto_from">
+  <br>
+  <br>
+  <h2 class="section-heading dark">Comunicate con nosotros</h2>
+  <br>
+  <div class="container">
+    <div class="row same-height-row">
+      <div class="col-sm-12 col-lg-6 col-md-6 contact-container">
+        <div class="section-heading align-left">
+          <h3>Envíanos un mensaje</h3>
+          <p class="light-gray">¡No dudes en contactarnos!</p>
+        </div>
+
+        <form role="form" id="contact-form" class="contact-form" onsubmit="return false">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Nombre" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail" required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Mensaje"></textarea required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-rect btn-rect--default pull-right" id="enviar-mensaje">Enviar mensaje</button>
+            </div>
+          </div>
+        </form>
+        <br>
+        <div class="row" id="mensaje_solicitud">
+
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 map-column">
+        <div class="map-container">
+          <iframe
+              style="width:100%;height:100%;border:0;"
+              frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA7pWbEO8HeWanfaLhCrwJwsjgxD4l0fWk
+                    &q=Taxisya,Bogota+CO" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="splash splash--default">
+  <h1 class="heading-text wow fadeInLeft">
+    Haz parte de los Taxisyafantaticos que usan Taxis ya!
+  </h1>
+  <a class="btn btn-rect btn-xl  wow fadeInRight"><img src="img/qrs/QR_ios.jpg" style=" width: 70px;"></a>
+  <a href="https://apple.co/2sJh3vr" target="_blank" class="btn btn-rect btn-xl btn-rect--white wow fadeInRight"><i class="fa fa-apple"></i> Apple Store</a>
+  <a href="http://bit.ly/2kWqbIN" target="_blank" class="btn btn-rect btn-xl btn-rect--white wow fadeInRight"><i class="fa fa-android"></i> Google Play</a>
+  <a class="btn btn-rect btn-xl  wow fadeInRight"><img src="img/qrs/QR_android.jpg" style=" width: 70px;"></a>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <h5>Navegación</h5>
+        <ul class="list-unstyled">
+          <li><a href="#about">La app</a></li>
+          <li><a href="#features">Tiendas</a></li>
+          <li><a href="#pricing">Funcionalidades</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <h5>Social</h5>
+        <ul class="list-unstyled">
+          <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+          <li><a href=""><i class="fa fa-youtube"></i> Youtube</a></li>
+          <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <h5>Soporte</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://www.taxisya.co/web/politicas.html">Políticas de privacidad</a></li>
+          <li><a href="https://www.taxisya.co/web/terminos.html">Términos &amp; Condiciones</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <h5>Contacto</h5>
+        <address>
+          Calle 1c Bis #18-34<br>
+          Bogota D.C., Colombia <br>
+          tel: (321) 9442107<br>
+          Email: <a href="mailto:#">servicioalcliente@taxisya.com.co</a>
+        </address>
+      </div>
+
+    </div>
+
+    <div class="row bottom-row">
+      <div class="col-sm-12">
+        <div class="footer-alt text-center">
+          <p>2018 © Taxis Ya</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/video.js/video.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/svg-injector/svg-injector.min.js"></script>
+    <script src="vendor/wowjs/wow.min.js"></script>
+
+    <script src="js/index.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#enviar-mensaje').click(function(e){
+          var name = $('#Name').val();
+          var correo = $('#email').val();
+          var menssage = $('#Message').val();
+
+          var data = {Name: name, email: correo, Message: menssage};
+
+          $.post('controllers/mensaje.php', data, function(datos){
+              $("#mensaje_solicitud").html(datos);
+          });
+
+        });
+      });
+    </script>
+  </body>
+</html>
